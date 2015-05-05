@@ -14,10 +14,11 @@ The game will give you three letters, such as *acu*, and prompts to you give a S
 - As such, there are some flaws&mdash;for example, it may want you to find words that contain *kéb* (answers: *pokéball(s)*, *pokéblock(s)*).
 - The letter pairs *rr*, *ll*, and *ch* are counted as two letters each. This approach won't always work; for example, the Catalan *l·l* really has to be treated as a unigraph.
 - The script I used to generate the Spanish trigraph frequencies is included but it's not up-to-snuff.
-- Maybe there should be a GUI? Or some easier way to 
+- Maybe there should be a GUI? Or some easier way to input special characters.
 
 ## Let me know what you think!
 I can be reached at: 
 - såm ündèrscõre ëttîngêr ât hmç døt edu, without any diacritics
 - sje[six squared plus four squared plus six] @ cornell.edu
+
 I'd love suggestions/feedback on the game (or my e-mail obscuring methods)
