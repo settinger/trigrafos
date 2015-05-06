@@ -4,7 +4,7 @@ A word game! If you are given an arbitrary three-letter string, can you come up 
 Trígrafos is meant as a game for foreign language vocabulary stretching, so this repo features both game code and corpus-processing code (for making new language versions).
 
 ## How to run the game
-Make sure you have main.py, levels.list, and unigram.dict in the same folder, then open main.py. If you have Python 2.something, it should run!
+Go into the appropriate language folder (e.g. 'ES' for español, 'PT' for português) and download the files within. Make sure you have main.py, levels.list, and unigram.dict in the same folder, then open main.py. If you have Python 2.something, it should run!
 
 ## How to play the game
 The game will give you three letters, such as *acu*, and prompts to you give a word that contains those letters in order (e.g. *facultad* or *acurrucarse*, meaning 'to snuggle'). You may want to have the special characters handy! That means *áéíóúñü* for Spanish and *áâãàéêíóôõúçü* for Portuguese. Also, your word must be five letters or more, just because. The better you do, the harder it gets (that is, the rarer the trigraphs become).

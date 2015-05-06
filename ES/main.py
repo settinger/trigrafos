@@ -35,4 +35,4 @@ while 1:
         else:
             onStreak = False
 
-#áéíóúñü
+# áéíóúñü
