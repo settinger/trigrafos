@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-# New game: trígrafos
+# Word game "Trígrafos"
 # Trigraphs and their frequencies taken from Wikicorpus: http://www.cs.upc.edu/~nlp/wikicorpus/
 # Sam Ettinger, May 2015
 # sam_ettinger@hmc.edu
+
 import pickle
 import random
 
