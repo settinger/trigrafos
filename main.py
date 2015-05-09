@@ -44,7 +44,7 @@ onStreak = True
 level = 0
 while 1:
     trig = random.choice(levels[level].keys())
-    guess = raw_input('Level ' + str(level+1) + ': name a word that contains \'' + trig + '\':\n')
+    guess = raw_input('Level {}: name a word that contains \'{}\':\n'.format(str(level+1), trig))
     if trig in guess and guess in unigram.keys():
         print(u'¡Muy bien!')
         if onStreak and level<N-1:
@@ -53,7 +53,7 @@ while 1:
             onStreak = True
     else:    
         # Say what would have been good
-        ok_answers =  levels[level][trig][1][0:5]
+        ok_answers =  levels[level][trig][1][0:]
         print('Mais non! We would have accepted: {}, etc.'.format(', '.join(ok_answers)))
         
         if len(guess) < 5:
