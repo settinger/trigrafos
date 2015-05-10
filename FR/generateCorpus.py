@@ -4,7 +4,7 @@ import pickle
 from collections import defaultdict
 from math import log10, ceil
 
-# English frequency data taken from Google Books n-Grams
+# French frequency data taken from Google Books n-Grams
 
 filenames = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
              'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'other']

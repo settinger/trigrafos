@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # New game: trígrafos
-# Trigraphs and their frequencies taken from Google Books n-Grams
 # Sam Ettinger, May 2015
 # sam_ettinger@hmc.edu
 import pickle
